@@ -86,8 +86,8 @@ socket.close();
 
 ###ios配置
 ####打开该目录 .../node_modules/react-native-socket-io/ios
-![Mou icon](https://cl.ly/3r2C3t0o3r1O/Image%202016-07-17%20at%202.06.50%20%E4%B8%8B%E5%8D%88.png)
-![Mou icon](https://cl.ly/3b0E3J2J1H1C/Image%202016-07-17%20at%202.15.23%20%E4%B8%8B%E5%8D%88.png)
+![Mou icon1](https://cl.ly/3r2C3t0o3r1O/Image%202016-07-17%20at%202.06.50%20%E4%B8%8B%E5%8D%88.png)
+![Mou icon2](https://cl.ly/3b0E3J2J1H1C/Image%202016-07-17%20at%202.15.23%20%E4%B8%8B%E5%8D%88.png)
 
 
 
