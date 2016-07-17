@@ -97,7 +97,7 @@ class Socket {
     this.sockets.AllOff();
   }
 
-  AllOff (event) {
+  off (event) {
     this.sockets.off(event);
   }
 
