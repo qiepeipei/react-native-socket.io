@@ -18,29 +18,31 @@
 - `AllOff` - 取消所有事件监控  支持android
 
 ### 使用实例
-// 配置项
-var socketConfig = {};
-//连接socket
-var socket = new SocketIO('localhost:3000', socketConfig);
+	// 配置项
+	var socketConfig = {};
+	//连接socket
+	var socket = new SocketIO('localhost:3000', socketConfig);
 
 
-socket.on('connect', () => {
-    console.log('连接成功');
-});
+	socket.on('connect', () => {
+    	console.log('连接成功');
+	});
 
-// 接收来自服务器的事件监听
-socket.on('someEvent', (data) => {
-    console.log('Some event was called, check out this data: ', data);
-});
+	// 接收来自服务器的事件监听
+	socket.on('someEvent', (data) => {
+    	console.log('Some event was called, check out this data: ', data);
+	});
 
-// 提交
-socket.connect();
+	// 提交
+	socket.connect();
 
-// 发送数据给服务器
-socket.emit('helloWorld', {some: 'data'});
+	// 发送数据给服务器
+	socket.emit('helloWorld', {some: 'data'});
 
-// 断开socket连接
-socket.close();
+	// 断开socket连接
+	socket.close();
+	
+
 
 ### npm install react-native-socket-io
 
