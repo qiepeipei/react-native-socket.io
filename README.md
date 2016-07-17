@@ -1,5 +1,5 @@
 # react-native-socket.io
-#### react-native-socket.io同时支持ios和android平台
+#### react-native-socket.io使用原生socket.io库进行封装,同时支持ios和android平台
 ### 导出方法
 - `connect` - 提交到socket  支持android ios
 - `on` - 添加事件到socket  支持android ios
