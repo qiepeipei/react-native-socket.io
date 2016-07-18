@@ -89,7 +89,7 @@
 ###ios配置
 ####打开该目录 .../node_modules/react-native-socket-io/ios
 ![Mou icon1](https://cl.ly/3i05190O3T2H/download/a1.png)
-![Mou icon2](https://cl.ly/3W2N3f1p0d0c/a2.png)
+![Mou icon2](https://cl.ly/3W2N3f1p0d0c/download/a2.png)
 
 
 
