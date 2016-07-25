@@ -53,6 +53,7 @@
     ...
 	include ':reactnativesocketio'
 	project(':reactnativesocketio').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-socket-io/android/reactnativesocketio')
+
     ```
 
 2. 设置 `android/app/build.gradle`
