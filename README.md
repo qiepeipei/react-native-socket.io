@@ -44,7 +44,7 @@
 	
 
 
-### npm install react-native-socket-io
+## npm install react-native-socket-io
 
 ###android配置
 1. 设置 `android/setting.gradle`
