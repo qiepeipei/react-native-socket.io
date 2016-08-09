@@ -17,34 +17,40 @@
 	- `@param` - String - 事件名称
 - `AllOff` - 取消所有事件监控  支持android
 
-### 使用实例
-	// 配置项
-	var socketConfig = {};
-	//连接socket
-	var socket = new SocketIO('localhost:3000', socketConfig);
-
-
-	socket.on('connect', () => {
-    	console.log('连接成功');
-	});
-
-	// 接收来自服务器的事件监听
-	socket.on('someEvent', (data) => {
-    	console.log('Some event was called, check out this data: ', data);
-	});
-
-	// 提交
-	socket.connect();
-
-	// 发送数据给服务器
-	socket.emit('helloWorld', {some: 'data'});
-
-	// 断开socket连接
-	socket.close();
-	
-
-
 ## npm install react-native-socket-io
+
+### 使用实例
+    var SocketIO = require('react-native-socket-io');
+
+    componentDidMount(){
+
+        // 配置项
+        var socketConfig = {};
+        //连接socket
+        var socket = new SocketIO('http://zhg.zhuyousoft.com:2120', socketConfig);
+
+
+        socket.on('connect', () => {
+          console.log('连接成功');
+        });
+
+        // 接收来自服务器的事件监听
+        socket.on('someEvent', (data) => {
+          console.log('Some event was called, check out this data: ', data);
+        });
+
+        // 提交
+        socket.connect();
+
+        // // 发送数据给服务器
+        // socket.emit('helloWorld', {some: 'data'});
+        //
+        // // 断开socket连接
+        // socket.close();
+
+    }
+
+
 
 ###android配置
 1. 设置 `android/setting.gradle`
